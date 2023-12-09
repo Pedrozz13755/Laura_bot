@@ -1,0 +1,44 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.1
+
+Platform: 
+  android arm
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/laura_bot/node_modules/@whiskeysockets/baileys/node_modules/.bin/pino'
+
+npm manifest: 
+  {
+    "name": "bot",
+    "version": "1.0.0",
+    "description": "bot by pedrozz",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+     },
+    "author": "rony",
+    "license": "ISC",
+    "dependencies": {
+    "@whiskeysockets/baileys": "^6.2.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^7.11.0",
+    "fs": "^0.0.1-security",
+    "axios": "^0.24.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

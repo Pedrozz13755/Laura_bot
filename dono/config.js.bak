@@ -1,0 +1,14 @@
+const { fs } =  require( "fs")
+
+global.donoName = "Pedrozz" //nick dono
+global.botName = "LAURA PRIVAT" //nome do bot
+global.nomeservidor = "LAURA|PRIVAT" //nome do bot para aparecer no termux obs:(coloca um ( | ) para separar.
+global.donoNumher = "556199317165" //numero do dono
+global.botNumber = "13155054652" //numero do bot
+global.prefix = "," //prefixo do bot
+global.comandos = "344" //total de comandos
+global.criador = "pedrozz"//nome do criador
+global.grupo = "https://chat.whatsapp.com/GS4mBZHEMq2Fl7cjbHLYFJ" //colocar link do seu grupo
+global.emoji = "❄" //emoji dos menus de cmd.
+
+//laura config
